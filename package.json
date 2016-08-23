@@ -1,0 +1,24 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/assignment-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "lodash": "^4.15.0",
+    "method-override": "^2.3.6",
+    "moment": "^2.14.1",
+    "pg": "^6.1.0",
+    "q": "^1.4.1",
+    "request": "^2.74.0",
+    "sequelize": "^3.24.1"
+  }
+}

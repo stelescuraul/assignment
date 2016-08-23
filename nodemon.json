@@ -1,0 +1,18 @@
+{
+  "verbose": true,
+  "exec": "node server/assignment-server.js",
+  "ignore": [
+    ".git",
+    "node_modules",
+    "bower_components",
+    "public",
+    "apidoc"
+  ],
+  "watch": [
+    "./"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js json"
+}

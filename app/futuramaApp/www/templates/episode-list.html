@@ -1,0 +1,16 @@
+<ion-view view-title="Episodes">
+  <ion-content>
+    <ion-list>
+      <ion-item class="episodeLine" ng-repeat="episode in episodes" type="item-text-wrap" ui-sref=".details({episode:episode.id})">
+        <div style="display:inline-block;">
+          Episode Name:
+          <h2>{{episode.name}}</h2>
+          Air Date:
+          <h2>{{episode.airDate}}</h2>
+        </div>
+        <img ng-src="{{episode.image}}">
+      </ion-item>
+    </ion-list>
+    <ion-infinite-scroll ng-if="hasMoreData" on-infinite="loadMore()" distance="2%"></ion-infinite-scroll>
+  </ion-content>
+</ion-view>

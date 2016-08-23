@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+
+.episodeLine {}
+.episodeLine img {
+  min-height: 100px;
+  max-height: 200px;
+  border-radius: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  margin: auto;
+  display: block;
+}
+.episodeLine a {}
+
+}
+.episodeLine div h2 {}
